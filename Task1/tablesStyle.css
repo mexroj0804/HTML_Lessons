@@ -1,0 +1,21 @@
+.box1 {
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    border: 5px solid green;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+    font-size: 20px;
+    color: black;
+  }
+
+  .box2 {
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    border: 5px solid yellow;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+    font-size: 20px;
+    color: black;
+  }
