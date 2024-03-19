@@ -1,0 +1,17 @@
+.fontStyle{
+    line-height: (needed)px; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.headerStyle{
+    background-color: #DD8705;
+    color: #FDFD2E;
+}
+
+.sectionStyle  {
+    content: "";
+    display: table;
+    clear: both;
+    width: 50%;
+}
