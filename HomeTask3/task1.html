@@ -6,69 +6,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="task1Style.css">
 </head>
-<body>
-    <div style="border: 1px solid black; width: 350px; height: 500px;">
-        <header class="headerStyle">Sign Up</header>
-        <div class="fontStyle">
-            <label for="fname"> First Name</label>
-            <input type="text" id="fname" placeholder="Enter First Name"> <br>
-        </div>
+<body >
+    <div style="border: 2px solid black; width: 33%;">
+        <header class="headerStyle">
+            <h2>Sign Up</h2>
+        </header>
 
-
-        <div class="fontStyle">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" placeholder="Enter Last Name"> <br>
-        </div>
-
-        <div class="fontStyle">
-            <label for="datebr">Date Of Birth</label>
-                <input type="date" id="datebr">
-        </div>
-
-        <div class="fontStyle">
-            Gender
-            <input type="radio" id="male" name="fav_language" value="Male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="fav_language" value="Female">
-            <label for="female">Female</label>
-        </div>
-
-        <div class="fontStyle">
-            <label for="country">Country</label>
-            <select id="country">
-                <option value="country">Country</option>
-                <option value="uzbekistan">Uzbekistan</option>
-                <option value="usa">USA</option>
-                <option value="russian">Russian</option>
-            </select>
-        </div>
-
-        <div class="fontStyle">
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="Enter E-mail">
-        </div>
-
-        <div class="fontStyle">
-            <label for="phone">Phone</label>
-            <input type="text" id="phone" placeholder="Enter Phone">
-        </div>
-
-        <div class="fontStyle">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-        </div>
-
-        <div class="fontStyle">
-            <label for="passwordcf">Confirm Password</label>
-            <input type="password" id="passwordcf">
-        </div>
-
-        <div class="fontStyle">
-            <input type="checkbox" id="rule">
-            <label for="rule">I Agree to the Terms of use</label>
-        </div>
-        <footer>
-            <input type="submit" name="submit">
+        <main style="background-color: rgb(17, 8, 69);">
+            <div>
+                <ul style="margin-left: 53px;">
+                    <li><label for="fname">First Name</label></li>
+                    <li><input type="text" id="fname" placeholder="Enter First Name"></li>
+                </ul>
+                <ul style="margin-left: 55px;">
+                    <li><label for="lname">Last Name</label></li>
+                    <li><input type="text" id="lname" placeholder="Enter Last Name"></li>
+                </ul>
+                <ul style="margin-left: 36px;">
+                    <li><label for="date">Date of Birth</label></li>
+                    <li><input type="date" id="date"></li>
+                </ul>
+                <ul style="margin-left: 82px;">
+                    <li><label>Gender</label></li>
+                    <li><input type="radio" id="male" name="fav_language" value="Male"> </li>
+                    <li><label for="male">Male</label></li>
+                    <li><input type="radio" id="female" name="fav_language" value="Female"></li>
+                    <li><label for="female">Female</label></li>
+                </ul>
+                <ul style="margin-left: 76px;">
+                    <li><label for="country">Country</label></li>
+                    <li>
+                        <select id="country">
+                            <option value="country">Country</option>
+                            <option value="uzbekistan">Uzbekistan</option>
+                            <option value="usa">USA</option>
+                            <option value="russian">Russian</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul style="margin-left: 87px;">
+                    <li><label for="email">E-mail</label></li>
+                    <li><input type="text" id="email" placeholder="Enter E-mail"></li>
+                </ul>
+                <ul style="margin-left: 92px;">
+                    <li><label for="phone">Phone</label></li>
+                    <li><input type="text" id="phone" placeholder="Enter Phone"></li>
+                </ul>
+                <ul style="margin-left: 65px;">
+                    <li><label for="pass">Password</label></li>
+                    <li><input type="password"></li>
+                </ul>
+                <ul style="margin-right: 50px; padding-left: 32px;">
+                    <li><label for="password">Confirm Password</label></li>
+                    <li><input type="password" id="password"></li>
+                </ul>
+                <ul style="margin-left: 165px;">
+                    <li><input type="checkbox" id="rule"></li>
+                    <li style="font-size: 15px;"><label for="rule">I Agree to the Terms of use</label></li>
+                </ul>
+            </div>
+        </main>
+        
+        <footer class="headerStyle">
+            <ul style="margin-left: 200px;">
+                <li><button>Submit</button></li>
+                <li><button>Cancel</button></li>
+            </ul>
         </footer>
     </div>
 </body>
