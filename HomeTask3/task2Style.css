@@ -1,0 +1,33 @@
+.headFont{
+    font-size: 30px;
+    color: red;
+    background-color: rgb(255, 255, 150);
+}
+
+tr td label{
+    margin-left: 10px;
+    font-size: 20px;
+}
+tr td {
+    padding: 5px;
+}
+
+.color{
+    background-color: aqua;
+}
+
+tr td input{
+    margin-left: 10px;
+}
+tr td select{
+    margin-left: 10px;
+}
+tr td textarea{
+    margin-left: 10px;
+}
+
+tr td button{
+    height: 40px;
+    width: 140px;
+    margin-left: 5px;
+}

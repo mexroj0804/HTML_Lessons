@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="task2Style.css">
+</head>
+<body>
+    <table border="2px solid black" style="width: 33%;">
+        <tr class="headFont">
+            <td colspan="2" style="text-align: center;">Registration Form</td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label for="name">Enter Name</label>
+            </td>
+            <td>
+                <input type="text" id="name">
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label for="password">Enter Password</label>
+            </td>
+            <td>
+                <input type="password" id="password">
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label for="address">Enter Address</label>
+            </td>
+            <td>
+                <textarea name="text" id="address" cols="20" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label>Select Game</label>
+            </td>
+            <td>
+                <input type="checkbox" id="game1" name="game1" value="Hockey">
+                <label for="game1">Hockey</label> <br>
+                <input type="checkbox" id="game2" name="game2" value="Football">
+                <label for="game2">Football</label> <br>
+                <input type="checkbox" id="game3" name="game3" value="Badminton">
+                <label for="game3">Badminton</label> <br>
+                <input type="checkbox" id="game4" name="game4" value="Cricket">
+                <label for="game4">Cricket</label> <br>
+                <input type="checkbox" id="game5" name="game5" value="Volleyball">
+                <label for="game5">Volleyball</label>
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label>Gender</label>
+            </td>
+            <td>
+                <input type="radio" id="male" name="fav_language" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="fav_language" value="Female">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label for="age">Select Your Age</label>
+            </td>
+            <td>
+                <select id="age">
+                    <option value="select">Select</option>
+                    <option value="18">18</option>
+                    <option value="17">17</option>
+                    <option value="16">16</option>
+                    <option value="15">15</option>
+                    <option value="14">14</option>
+                    <option value="13">13</option>
+                    <option value="12">12</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="color">
+            <td>
+                <label for="img">Select Photo</label>
+            </td>
+            <td>
+                <input type="file" id="img">
+            </td>
+        </tr>
+        <tr class="color">
+            <td colspan="2">
+                <button>Click Me</button>
+                <button>Reset</button>
+                <button>Submit Form</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
